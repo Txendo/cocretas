@@ -1,0 +1,13 @@
+
+body {
+    p{text-align: left;}
+    cocreta { 
+    font-family: 'Montserrat', sans-serif; 
+    color: #4a4a4a; 
+    line-height: 1.6; }
+    background-image: src="historia.jpg"
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
