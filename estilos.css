@@ -1,13 +1,65 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
 body {
-    p{text-align: left;}
-    cocreta { 
-    font-family: 'Montserrat', sans-serif; 
-    color: #4a4a4a; 
-    line-height: 1.6; }
-    background-image: src="historia.jpg"
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-image: url("cocre1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: white; 
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+
+.cocreta { 
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+
+.imagen-cocreta {
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+    margin-left: 40px; 
+}
+
+
+.texto-derecha {
+    background-color: rgba(255, 255, 255, 0.9); 
+    padding: 30px;
+    border-radius: 30px;
+    margin-left: 30px; 
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.3);
+}
+
+p {
+    margin-bottom: 10px;
+}
+.boton-receta {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #e67e22; 
+    color: white;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.boton-receta:hover {
+    background-color: #d35400;
 }
